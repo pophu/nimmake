@@ -1,0 +1,14 @@
+[target]
+srcs = [
+    "Src/main.c",
+    "Src/stm32f4xx_hal_msp.c",
+    "Src/stm32f4xx_it.c",
+    "Src/system_stm32f4xx.c",
+    "Src/syscalls.c",
+    "Src/sysmem.c",
+]
+incs = ["Inc"]
+
+
+# defines = ["DEBUG=1", "USE_HAL_DRIVER=1", "BOARD_ID=345", "xxxx"]
+# include_macros = ["DEBUG=1", "USE_HAL_DRIVER=1", "BOARD_ID=345", "xxxx"]

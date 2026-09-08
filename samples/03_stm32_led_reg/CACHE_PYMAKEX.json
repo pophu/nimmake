@@ -1,0 +1,48 @@
+{
+  "OBJECTS": {
+    "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o": {
+      "command": "arm-none-eabi-as -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb    ",
+      "src": "startup_stm32f407xx.s",
+      "hash": "7a33c459905a3c6b6f0dd5462465b3ce54bf1283783e4d311fbf49181fb23abc",
+      "mtime": 1788835241.5487318,
+      "valid": 1
+    },
+    "BUILD/OBJ/_DEFAULT/main.o": {
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99    ",
+      "src": "main.c",
+      "hash": "ef3f21b4522db4b17f4ede71b8cc114c9840d2b734d3de4a02b48c1ff914f1ce",
+      "mtime": 1788835242.1077166,
+      "valid": 1
+    }
+  },
+  "TARGETS": {
+    "BUILD/test.ELF": {
+      "hash": "e81a9d7f21d32fa97b5d9d3169c2040a4f5307515cfcf5ae8a9a1adafe97e7e8",
+      "command": "arm-none-eabi-gcc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--gc-sections -TSTM32F407XX_FLASH.ld --specs=nosys.specs BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o BUILD/OBJ/_DEFAULT/main.o  ",
+      "src": [
+        "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o",
+        "BUILD/OBJ/_DEFAULT/main.o"
+      ],
+      "valid": 1
+    }
+  },
+  "COMMANDS": {},
+  "HEADERS": {},
+  "DEPENDENCIES": {
+    "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o": {
+      "hash": "7a33c459905a3c6b6f0dd5462465b3ce54bf1283783e4d311fbf49181fb23abc",
+      "deps": []
+    },
+    "BUILD/OBJ/_DEFAULT/main.o": {
+      "hash": "ef3f21b4522db4b17f4ede71b8cc114c9840d2b734d3de4a02b48c1ff914f1ce",
+      "deps": [
+        "main.c"
+      ]
+    },
+    "BUILD/test.ELF": [
+      "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o",
+      "BUILD/OBJ/_DEFAULT/main.o"
+    ]
+  },
+  "LIBS": {}
+}

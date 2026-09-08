@@ -1,0 +1,163 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        // ====================== 布局与外观 ======================
+        "workbench.colorTheme": "GNOME2-like", // 颜色主题 GNOME2-like , Nord, Nord Wave ，GitHub Dark Dimmed
+        "workbench.iconTheme": "vs-seti", // 图标主题  vs-minimal  vs-seti
+        "workbench.productIconTheme": "Default", // 产品图标主题（VSCode 内部图标） emoji-product-icons-fun
+        "workbench.editor.empty.hint": "hidden", // 隐藏空编辑器提示
+        "workbench.startupEditor": "none", // 启动时不打开任何文件
+        "workbench.editor.showTabs": "multiple", // 显示编辑器标签页  none  single multiple
+        "workbench.tree.renderIndentGuides": "always", // 显示文件树缩进线
+        // ====================== 侧边栏与面板 ======================
+        "workbench.sideBar.location": "left", // 侧边栏位置（left/right）
+        "workbench.panel.defaultLocation": "bottom", // 显示活动栏
+        "workbench.statusBar.visible": true, // 显示状态栏
+        // ====================== 编辑器布局 ======================
+        "workbench.editor.splitOnDragAndDrop": true, // 拖放文件时自动分屏
+        "workbench.editor.enablePreview": false, // 禁用文件预览模式（避免标签页覆盖）
+        "workbench.editor.limit.enabled": true, // 限制打开的编辑器数量
+        "workbench.editor.limit.perEditorGroup": true, // 每个编辑器组最多 5 个标签
+        // ====================== 快速访问 ======================
+        "workbench.quickOpen.closeOnFocusLost": true, // 失去焦点时关闭快速搜索
+        "workbench.commandPalette.preserveInput": true, // 保留命令面板历史输入
+        // ====================== 编辑器外观与行为 ======================
+        //  "Monaco, 'Courier New', monospace”  "Consolas, 'Courier New', monospace"
+        "editor.fontSize": 14, // 字体大小
+        "editor.fontFamily": "Monaco, 'Courier New', monospace", // 字体类型
+        "editor.tabSize": 4, // Tab 键缩进空格数
+        "editor.insertSpaces": true, // 用空格替代 Tab
+        "editor.detectIndentation": false, // 禁止自动检测缩进（避免与项目风格冲突）
+        "editor.renderWhitespace": "none", // 显示空格和 Tab 符号（可选值："none", "boundary" ..., "all"）
+        "editor.lineNumbers": "on", // 显示行号
+        "editor.minimap.enabled": false, // 禁用右侧缩略图（提升性能）
+        "editor.cursorStyle": "line", // 光标样式（"block", "line-thin", "underline"）
+        "editor.smoothScrolling": true, // 平滑滚动
+        "editor.lineHeight": 20, // 行高
+        "editor.letterSpacing": 0.4, // 字间距
+        "editor.fontLigatures": true, // 启用连字（如 => 显示为 ⇒）
+        // ====================== 代码编辑优化 ======================
+        "editor.formatOnSave": true, // 保存时自动格式化代码
+        "editor.formatOnPaste": false, // 粘贴时不自动格式化（避免混乱）
+        "editor.autoClosingBrackets": "always", // 自动闭合括号/引号
+        "editor.autoClosingQuotes": "always",
+        // "editor.codeActionsOnSave": {           // 保存时自动修复代码
+        //     "source.fixAll": true,
+        //     "source.organizeImports": true
+        // },
+        "editor.suggestSelection": "first", // 代码补全选择策略
+        "editor.quickSuggestions": {
+            // 快速建议（输入时触发）
+            "comments": true,
+            "strings": true,
+            "other": true
+        },
+        // ====================== python 语言专项配置 ======================
+        // 启用 Ruff 作为 Linter 和 Formatter
+        "ruff.enable": true,
+        "[python]": {
+            "python.formatting.provider": "none", // 禁用旧格式化器
+            "editor.defaultFormatter": "charliermarsh.ruff",
+            "editor.formatOnSave": true,
+            "editor.codeActionsOnSave": {
+                "source.organizeImports.ruff": "explicit",
+                "source.fixAll.ruff": "explicit"
+            },
+            "languageServer": "Pylance" ,
+            "ruff.format.args": ["--config", "pyproject.toml" ],
+
+        },
+        "python.analysis.cacheDir": "${workspaceFolder}/.cache/vscode-python",
+        "python.testing.pytestEnabled": true,
+        "python.testing.unittestEnabled": false,
+
+        // === ✅ C/C++ 配置（重点）===
+        "[c]": {
+            "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+            "editor.formatOnSave": true
+        },
+        "[cpp]": {
+            "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+            "editor.formatOnSave": true
+        },
+        // === TypeScript/JavaScript 专属 ===
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true
+        },
+        "[typescriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        // ====================== json 语言专项配置 ======================
+        "[json]": {
+            // 仅对 json 文件生效的配置
+            "editor.formatOnSave": true, // 保存时自动格式化代码
+            "editor.defaultFormatter": "esbenp.prettier-vscode" // 使用 clangd 格式化
+        },
+        // ====================== yaml 语言专项配置 ======================
+        "[yaml]": {
+            "editor.formatOnSave": true, // 保存时自动格式化代码
+            "editor.defaultFormatter": "esbenp.prettier-vscode", // 或 "redhat.vscode-yaml"
+            // "prettier.yamlQuoteProps": "preserve", // 引号保留原样
+            "prettier.proseWrap": "never" // 禁止折行
+        },
+        // ====================== markdown 语言专项配置 ======================
+        "[markdown]": {
+            "editor.quickSuggestions": {
+                "other": true,
+                "comments": false,
+                "strings": true
+            },
+            "editor.wordWrap": "on",
+            "editor.renderWhitespace": "none",
+            "editor.tabSize": 2,
+            "editor.autoClosingQuotes": "always",
+            "editor.formatOnSave": true,
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        // Markdown 预览设置
+        "markdown.preview.fontSize": 14,
+        "markdown.preview.lineHeight": 1.5,
+        "markdown.preview.breaks": true,
+        "markdown.preview.linkify": true,
+        "markdown.preview.doubleClickToSwitchToEditor": false,
+        // Markdown 扩展设置
+        "markdown.extension.toc.levels": "2..4",
+        "markdown.extension.toc.unorderedList.marker": "-",
+        "markdown.extension.preview.autoShowPreviewToSide": true,
+
+    // ====================== ending ======================
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#43b783",
+            "activityBar.background": "#61b3d3",   // 左侧
+            "statusBar.background": "#61b3d3",
+            "titleBar.activeBackground": "#61b3d3",   // 顶部
+
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#f0e8f6",
+            "activityBarBadge.foreground": "#15202b",
+            "commandCenter.border": "#e7e7e799",
+            "sash.hoverBorder": "#43b783",
+            // "statusBar.background": "#6777d1",
+            "statusBar.foreground": "#e7e7e7",
+            "statusBarItem.hoverBackground": "#43b783",
+            "statusBarItem.remoteBackground": "#359268",
+            "statusBarItem.remoteForeground": "#e7e7e7",
+            // "titleBar.activeBackground": "#6777d1",   // 顶部
+            "titleBar.activeForeground": "#e7e7e7",
+            "titleBar.inactiveBackground": "#4c1f9499",  // 顶部
+            "titleBar.inactiveForeground": "#e7e7e799"
+        },
+ 
+        "": [],
+    }
+}

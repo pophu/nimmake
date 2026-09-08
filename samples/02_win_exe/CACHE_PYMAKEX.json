@@ -1,0 +1,35 @@
+{
+  "OBJECTS": {
+    "BUILD/OBJ/_DEFAULT/main.o": {
+      "command": "clang -c -O2 -Wall -std=c99    ",
+      "src": "main.c",
+      "hash": "c459ce32985bd7b5dcfd74ac640f68b0d915c6b7d5c0ef720cdfa53b8665cfbe",
+      "mtime": 1788835068.5935354,
+      "valid": 1
+    }
+  },
+  "TARGETS": {
+    "BUILD/test.exe": {
+      "hash": "b19c355fafa0c4610eaf7af3fdf478ddd1f5ca3437379e3b38a3adcd9d023bde",
+      "command": "clang  BUILD/OBJ/_DEFAULT/main.o  ",
+      "src": [
+        "BUILD/OBJ/_DEFAULT/main.o"
+      ],
+      "valid": 1
+    }
+  },
+  "COMMANDS": {},
+  "HEADERS": {},
+  "DEPENDENCIES": {
+    "BUILD/OBJ/_DEFAULT/main.o": {
+      "hash": "c459ce32985bd7b5dcfd74ac640f68b0d915c6b7d5c0ef720cdfa53b8665cfbe",
+      "deps": [
+        "main.c"
+      ]
+    },
+    "BUILD/test.exe": [
+      "BUILD/OBJ/_DEFAULT/main.o"
+    ]
+  },
+  "LIBS": {}
+}

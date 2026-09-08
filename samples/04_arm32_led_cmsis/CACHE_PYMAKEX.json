@@ -1,0 +1,85 @@
+{
+  "OBJECTS": {
+    "BUILD/OBJ/CODE/main.o": {
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include ",
+      "src": "Code/main.c",
+      "hash": "908425da01108ad8dd77658fd9ff55968ae805bfc0f996de16e2f1362e061184",
+      "mtime": 1788835306.823906,
+      "valid": 1
+    },
+    "BUILD/OBJ/CODE/syscalls.o": {
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include ",
+      "src": "Code/syscalls.c",
+      "hash": "908425da01108ad8dd77658fd9ff55968ae805bfc0f996de16e2f1362e061184",
+      "mtime": 1788835307.0937824,
+      "valid": 1
+    },
+    "BUILD/OBJ/CODE/sysmem.o": {
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -ICMSIS/Include -ICMSIS/Device/ST/STM32F4xx/Include ",
+      "src": "Code/sysmem.c",
+      "hash": "908425da01108ad8dd77658fd9ff55968ae805bfc0f996de16e2f1362e061184",
+      "mtime": 1788835307.402569,
+      "valid": 1
+    },
+    "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o": {
+      "command": "arm-none-eabi-as -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb    ",
+      "src": "startup_stm32f407xx.s",
+      "hash": "7a33c459905a3c6b6f0dd5462465b3ce54bf1283783e4d311fbf49181fb23abc",
+      "mtime": 1788835307.5410118,
+      "valid": 1
+    }
+  },
+  "TARGETS": {
+    "BUILD/test.ELF": {
+      "hash": "479a052b72dffce3c3fc0162294b42225e0c1bc0f5e5690da475a93ad223987a",
+      "command": "arm-none-eabi-gcc  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--gc-sections -TSTM32F407XX_FLASH.ld --specs=nosys.specs BUILD/OBJ/CODE/main.o BUILD/OBJ/CODE/syscalls.o BUILD/OBJ/CODE/sysmem.o BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o  ",
+      "src": [
+        "BUILD/OBJ/CODE/main.o",
+        "BUILD/OBJ/CODE/syscalls.o",
+        "BUILD/OBJ/CODE/sysmem.o",
+        "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o"
+      ],
+      "valid": 1
+    }
+  },
+  "COMMANDS": {},
+  "HEADERS": {},
+  "DEPENDENCIES": {
+    "BUILD/OBJ/CODE/main.o": {
+      "hash": "908425da01108ad8dd77658fd9ff55968ae805bfc0f996de16e2f1362e061184",
+      "deps": [
+        "CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h",
+        "CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+        "CMSIS/Include/cmsis_compiler.h",
+        "CMSIS/Include/cmsis_gcc.h",
+        "CMSIS/Include/cmsis_version.h",
+        "CMSIS/Include/core_cm4.h",
+        "CMSIS/Include/mpu_armv7.h",
+        "Code/main.c"
+      ]
+    },
+    "BUILD/OBJ/CODE/syscalls.o": {
+      "hash": "908425da01108ad8dd77658fd9ff55968ae805bfc0f996de16e2f1362e061184",
+      "deps": [
+        "Code/syscalls.c"
+      ]
+    },
+    "BUILD/OBJ/CODE/sysmem.o": {
+      "hash": "908425da01108ad8dd77658fd9ff55968ae805bfc0f996de16e2f1362e061184",
+      "deps": [
+        "Code/sysmem.c"
+      ]
+    },
+    "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o": {
+      "hash": "7a33c459905a3c6b6f0dd5462465b3ce54bf1283783e4d311fbf49181fb23abc",
+      "deps": []
+    },
+    "BUILD/test.ELF": [
+      "BUILD/OBJ/CODE/main.o",
+      "BUILD/OBJ/CODE/syscalls.o",
+      "BUILD/OBJ/CODE/sysmem.o",
+      "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o"
+    ]
+  },
+  "LIBS": {}
+}
