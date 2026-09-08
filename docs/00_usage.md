@@ -75,16 +75,3 @@ pip install -e .
 ### bazel 语法
 
 ### 新思路
-
-[distutils]
-index-servers =
-pypi
-nimmake
-
-[pypi]
-username = **token**
-password = pypi-AgEIcHlwaS5vcmcCJDVkY2JhYTdlLTUzYjMtNGIwMi1hNzlkLTFjMDE1M2QwNTEwNwACD1sxLFsicHltYWtleCJdXQACLFsyLFsiNjQ4YzRmNWYtNGRmZi00YjhhLWIzYmEtOTcyZTUwMjIzYWNhIl1dAAAGIBoNsKN7EYf0wBugbVnWu7r43gX9iNdzg2FmrMmHNQvM
-[nimmake]
-repository = https://upload.pypi.org/legacy/
-username = **token**
-password = pypi-AgEIcHlwaS5vcmcCJDVkY2JhYTdlLTUzYjMtNGIwMi1hNzlkLTFjMDE1M2QwNTEwNwACD1sxLFsicHltYWtleCJdXQACLFsyLFsiNjQ4YzRmNWYtNGRmZi00YjhhLWIzYmEtOTcyZTUwMjIzYWNhIl1dAAAGIBoNsKN7EYf0wBugbVnWu7r43gX9iNdzg2FmrMmHNQvM
