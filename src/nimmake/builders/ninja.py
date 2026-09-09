@@ -324,7 +324,7 @@ class Ninja:
 
     def _build_ninja_compile_objs_byParty(self):
         for party in self.parties.values():
-            log.error(f"party: {party.name} ", party.reflections)
+            log.info(f"party: {party.name} ", party.reflections)
             self._build_ninja_compile_reflections(party.reflections, party.name)
         pass
 

@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Core/Src/main.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Core/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/CORE/main.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Core/Src/stm32f4xx_hal_msp.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Core/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/CORE/stm32f4xx_hal_msp.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Core/Src/stm32f4xx_it.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Core/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/CORE/stm32f4xx_it.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Core/Src/syscalls.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Core/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/CORE/syscalls.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Core/Src/sysmem.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Core/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/CORE/sysmem.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Core/Src/system_stm32f4xx.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Core/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/CORE/system_stm32f4xx.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc  Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32/Drivers/STM32F4xx_HAL_Driver/Src",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o"
+  },
+  {
+    "directory": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD",
+    "command": "arm-none-eabi-as -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb     startup_stm32f407xx.s",
+    "file": "D:/MyCodeNew/nimmake/samples/05_arm32",
+    "output": "D:/MyCodeNew/nimmake/samples/05_arm32/BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o"
+  }
+]

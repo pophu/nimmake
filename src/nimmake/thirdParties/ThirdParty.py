@@ -32,7 +32,6 @@ Based on FileGatherer for collecting source files and header directories, suppor
   - Exclusion filtering
 """
 
-from __future__ import annotations
 
 import copy
 from abc import ABC, abstractmethod
@@ -468,7 +467,7 @@ class ThirdParty(ABC):
         item_dct.update({"in": " ".join(in_)})
         return item_dct
 
-    def DependOn(self, party: str | ThirdParty | list[str] | list[ThirdParty] = None) -> list[str]:
+    def DependOn(self, party: str | list[str] = None) -> list[str]:
         if party is None:
             return self
         if isinstance(party, str):
