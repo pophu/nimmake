@@ -1,144 +1,144 @@
 {
   "OBJECTS": {
     "BUILD/OBJ/CORE/main.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc ",
       "src": "Core/Src/main.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942726.2004426,
-      "valid": 1
+      "mtime": 1788943578.785293,
+      "valid": 0
     },
     "BUILD/OBJ/CORE/stm32f4xx_hal_msp.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc ",
       "src": "Core/Src/stm32f4xx_hal_msp.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942726.882218,
-      "valid": 1
+      "mtime": 1788943579.199691,
+      "valid": 0
     },
     "BUILD/OBJ/CORE/stm32f4xx_it.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc ",
       "src": "Core/Src/stm32f4xx_it.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942727.2312908,
-      "valid": 1
+      "mtime": 1788943579.568839,
+      "valid": 0
     },
     "BUILD/OBJ/CORE/syscalls.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc ",
       "src": "Core/Src/syscalls.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942727.8208256,
-      "valid": 1
+      "mtime": 1788943579.994805,
+      "valid": 0
     },
     "BUILD/OBJ/CORE/sysmem.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc ",
       "src": "Core/Src/sysmem.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942728.1596544,
-      "valid": 1
+      "mtime": 1788943580.37541,
+      "valid": 0
     },
     "BUILD/OBJ/CORE/system_stm32f4xx.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/CMSIS/Include -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -ICore/Inc ",
       "src": "Core/Src/system_stm32f4xx.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942728.4629383,
-      "valid": 1
+      "mtime": 1788943580.6682246,
+      "valid": 0
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942728.7877142,
+      "mtime": 1789012699.1469793,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942729.1403313,
+      "mtime": 1789012699.4924262,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942729.5202281,
+      "mtime": 1789012699.8403792,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942729.9368408,
+      "mtime": 1789012700.242269,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942730.3191662,
+      "mtime": 1789012700.6047788,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942730.7416122,
+      "mtime": 1789012700.947282,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942731.2104132,
+      "mtime": 1789012701.302183,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942731.5790114,
+      "mtime": 1789012701.644157,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942731.8974319,
+      "mtime": 1789012701.9442525,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942732.273385,
+      "mtime": 1789012702.472535,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942732.6102543,
+      "mtime": 1789012702.9750903,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942732.9381754,
+      "mtime": 1789012703.4043453,
       "valid": 1
     },
     "BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o": {
-      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/STM32F4xx_HAL_Driver/Inc -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F4xx/Include ",
+      "command": "arm-none-eabi-gcc -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -O2 -Wall -g -fdata-sections -ffunction-sections -std=c99 -DSTM32F407xx -DUSE_HAL_DRIVER  -IDrivers/STM32F4xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F4xx/Include -IDrivers/STM32F4xx_HAL_Driver/Legacy/Inc -IDrivers/CMSIS/Include -ICore/Inc ",
       "src": "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
       "hash": "4d56163f1a61e8f25ac5ce0ca2bbda27b237555f1deb9d59e75fb96be5825349",
-      "mtime": 1788942733.3486588,
+      "mtime": 1789012703.9559948,
       "valid": 1
     },
     "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o": {
       "command": "arm-none-eabi-as -c -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb    ",
       "src": "startup_stm32f407xx.s",
       "hash": "7a33c459905a3c6b6f0dd5462465b3ce54bf1283783e4d311fbf49181fb23abc",
-      "mtime": 1788942733.5838015,
-      "valid": 1
+      "mtime": 1788943585.6274724,
+      "valid": 0
     }
   },
   "TARGETS": {
@@ -154,7 +154,7 @@
         "BUILD/OBJ/CORE/system_stm32f4xx.o",
         "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o"
       ],
-      "valid": 1
+      "valid": 0
     }
   },
   "COMMANDS": {},
@@ -723,19 +723,40 @@
       "BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o"
     ],
     "BUILD/test.ELF": [
-      "BUILD/OBJ/CORE/main.o",
-      "BUILD/OBJ/CORE/stm32f4xx_hal_msp.o",
       "BUILD/OBJ/CORE/stm32f4xx_it.o",
-      "BUILD/OBJ/CORE/syscalls.o",
-      "BUILD/OBJ/CORE/sysmem.o",
       "BUILD/OBJ/CORE/system_stm32f4xx.o",
-      "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o"
+      "BUILD/OBJ/_DEFAULT/startup_stm32f407xx.o",
+      "BUILD/OBJ/CORE/stm32f4xx_hal_msp.o",
+      "BUILD/OBJ/CORE/sysmem.o",
+      "BUILD/OBJ/CORE/syscalls.o",
+      "BUILD/OBJ/CORE/main.o"
+    ],
+    "BUILD/LIB/libdriver.a": [
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o",
+      "BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o"
     ]
   },
   "LIBS": {
     "BUILD/LIB/libparty__driver.a": {
       "hash": "f30f9c7f50be47b9752effe2966a606ad09be1f09927cb9064a7e18e117df3b5",
       "command": "arm-none-eabi-ar  rcs BUILD/LIB/libparty__driver.a BUILD/OBJ/DRIVER/stm32f4xx_hal.o BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o",
+      "src": "BUILD/OBJ/DRIVER/stm32f4xx_hal.o BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o",
+      "valid": 1
+    },
+    "BUILD/LIB/libdriver.a": {
+      "hash": "fedf7c858dc09ee5eb6672477dc4fb7eb475081a88dd56036cb7d8b3e4d47480",
+      "command": "arm-none-eabi-ar  rcs BUILD/LIB/libdriver.a BUILD/OBJ/DRIVER/stm32f4xx_hal.o BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o",
       "src": "BUILD/OBJ/DRIVER/stm32f4xx_hal.o BUILD/OBJ/DRIVER/stm32f4xx_hal_cortex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma.o BUILD/OBJ/DRIVER/stm32f4xx_hal_dma_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_exti.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_flash_ramfunc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_gpio.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr.o BUILD/OBJ/DRIVER/stm32f4xx_hal_pwr_ex.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc.o BUILD/OBJ/DRIVER/stm32f4xx_hal_rcc_ex.o",
       "valid": 1
     }

@@ -80,10 +80,10 @@ srcs = [
     # "src_stm/main.c",
 ]
 t = hlp.Program("test", sources=srcs)
-hlp.DefaultTarget(t)
+# hlp.DefaultTarget(t)
 
 mylib = hlp.Library_STATIC("Driver")  # 指定party 名称
-# hlp.DefaultTarget(mylib)
+hlp.DefaultTarget(mylib)
 
 target_out = f"{hlp['BUILDDIR']}/test{hlp['TARGET_SUFFIX']}"
 bin = hlp.Command(
